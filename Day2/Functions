@@ -1,0 +1,4 @@
+len(string) - prints the length
+str.upper() - uppercase
+str.lower() - lowercase
+str.replace("a","b") -replaces a with b
