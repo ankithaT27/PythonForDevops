@@ -1,0 +1,25 @@
+#capitalize first letter
+#x = txt.capitalize()
+a = "python, is easy!"
+d= a.capitalize()
+print (d)
+
+#The count() method returns the number of times a specified value appears in the string.
+#string.count(value, start, end)
+Search from position 10 to 24:
+txt = "I love apples, apple are my favorite fruit"
+x = txt.count("apple", 10, 24) or txt.count("apple")
+print(x)
+
+
+#get encoded value of string
+txt = "My name is Ståle"
+x = txt.encode()
+print(x)
+
+#The endswith() method returns True if the string ends with the specified value, otherwise False.
+#string.endswith(value, start, end)
+a = "there are 10 apples and 2 apples are sweet"
+d= a.endswith("sweet")
+print (d)
+
