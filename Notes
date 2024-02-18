@@ -1,0 +1,72 @@
+Intro:
+
+Comments in python - #
+
+Casting
+If you want to specify the data type of a variable, this can be done with casting.
+Example
+x = str(3)    # x will be '3'
+
+type() 
+you can get the data type of a variable with the type() function.
+Example
+x = 5
+y = "John"
+print(type(x))
+print(type(y))
+
+Mutiple variables
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+Concat
+a="python"
+b="is"
+c="awesome"
+print(a,b,c)
+   OR
+a="python"
+b="is"
+c="awesome"
+print(a+" "+b+ " " +c)
+
+with mutiple data types a;ways use commas ont use + for concatenation
+#error
+x = 5
+y = "John"
+print(x + y)
+Use: print(x,y)
+
+
+Global Variables
+Variables that are created outside of a function (as in all of the examples above) are known as global variables.
+
+a=5
+def myfunction():
+  a=4
+  print(a+5)
+print(a+5)
+myfunction()
+
+op-10
+9
+
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+op-python is fantastic
