@@ -20,7 +20,37 @@ x = None	NoneType
 
 
 
-  Random Number
+Random Number
 Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
   import random
   print(random.randrange(1, 10))
+
+
+Most Values are True
+Almost any value is evaluated to True if it has some sort of content.
+Any string is True, except empty strings.
+Any number is True, except 0.
+Any list, tuple, set, and dictionary are True, except empty ones.
+
+true:
+bool("abc")
+bool(123)
+bool(["apple", "cherry", "banana"])
+
+fale
+bool(False)
+bool(None)
+bool(0)
+bool("")
+bool(())
+bool([])
+
+
+def myFunction() :
+  return True
+
+if myFunction():
+  print("YES!")
+else:
+  print("NO!")
+bool({})
