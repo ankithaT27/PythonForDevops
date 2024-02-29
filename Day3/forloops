@@ -10,3 +10,39 @@ for x in fruits:
   if x == "banana":
     break
   print(x)
+
+
+for i in range(1,100):
+  if i%3==0:
+    print(i)
+
+#Increment the sequence with 3 (default is 1):
+for x in range(2, 30, 3):
+  print(x)
+
+
+
+ak the loop when x is 3, and see what happens with the else block:
+for x in range(6):
+  if x == 3: break
+  print(x)
+else:
+  print("Finally finished!")
+
+
+
+for i in range(1,100,5):
+  if i%3==0:
+    print(i, "yes, a mutiple of 3")
+  else:
+    print(i, "no, not a mutiple of 3")
+else:
+  print("iteration is finally done")
+
+
+
+a=["easy","intesresting"]
+b=["python","java"]
+for i in a:
+  for j in b:
+    print(i,j)
