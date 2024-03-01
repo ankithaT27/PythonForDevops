@@ -25,3 +25,6 @@ else:
 import os
 a=bool(os.path.exists("/ankitha"))
 print(a)
+
+#check if a file exists
+a=bool(os.path.isfile("/workspaces/PythonForDevops/OSModule/learnoss.py"))
