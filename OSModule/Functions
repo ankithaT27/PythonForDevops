@@ -1,0 +1,5 @@
+os.path.isdir(path)
+os.path.isfile(path)
+os.path.exists(path)
+os.getcwd()
+os.chdir("/)
