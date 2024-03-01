@@ -19,3 +19,9 @@ else:
     os.chdir("/workspaces")
     print("now we are in workspaces")
     print(os.getcwd())
+
+
+#checkif directory exists (bool is optional)
+import os
+a=bool(os.path.exists("/ankitha"))
+print(a)
