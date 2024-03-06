@@ -21,6 +21,9 @@ else:
     print(os.getcwd())
 
 
+os.mkdir("/workspaces/PythonForDevops/hello")
+
+
 #checkif directory exists (bool is optional)
 import os
 a=bool(os.path.exists("/ankitha"))
