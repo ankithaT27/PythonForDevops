@@ -1,0 +1,14 @@
+import os
+f=open("myfile.txt","r")
+#r,w,x,a
+
+print(f.read())
+print(f.close())
+
+f.write("hi")
+f.close()
+f=open("myfile.txt","r") #"a
+f.read()
+
+os.remove("myfile.txt)
+os.rename("myfile","myf")
