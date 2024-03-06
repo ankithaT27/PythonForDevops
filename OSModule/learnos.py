@@ -34,3 +34,5 @@ a=bool(os.path.isfile("/workspaces/PythonForDevops/OSModule/learnoss.py"))
 
 #remove a dir
 os.rmdir()
+
+
